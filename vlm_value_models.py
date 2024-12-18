@@ -12,7 +12,7 @@ class Flatten(nn.Module):
 
 
 class ValueModel(LlavaNextPreTrainedModel):
-    def __init__(self, base_model_pth, hidden_size=3000 * 4096, output_size=1):
+    def __init__(self, base_model_pth, hidden_size=2560 * 4096, output_size=1):
         config = LlavaNextConfig.from_pretrained(base_model_pth)
         super(ValueModel, self).__init__(config)
         self.base_model_pth = base_model_pth
