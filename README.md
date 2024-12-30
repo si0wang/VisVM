@@ -21,7 +21,7 @@ bash ./script/clip_score.sh
 ```
 ## Train value model:
 ```
-bash ./script/clip_score.sh
+bash ./script/train_value.sh
 ```
 ## SFT VLM:
 ```
